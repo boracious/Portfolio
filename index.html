@@ -10,6 +10,9 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -62,9 +65,31 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Database Administrator</h3>
+                            <h3 class="mb-0">MySQL DBA</h3>
                             <div class="subheading mb-3">SAMSUNG SDS</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <div>
+                                <h5 class="mb-2">1. AWS 기반 MySQL RDS 구축</h5>
+                                <p>- 초기 스키마 ERD 작성 및 검증
+                                - RDBMS 데이터 볼륨 산정, MySQL RDS 스펙 구체화<br>
+                                - SQL 쿼리 검증 및 튜닝, 성능 개선 작업<br>
+                                - MySQL 실시간 모니터링 솔루션 설치<br>
+                                - MySQL 모니터링 항목 설정</p>
+                                
+                                <h5 class="mb-2">2. MySQL RDS 및 Redis 서버 운영</h5>
+                                <p>
+                                - 스키마 변경, 데이터 변경 요청 검증 및 실행<br>
+                                - MySQL RDS 30대 이상, Redis 캐시 서버 8대 실시간 모니터링 및 트러블 슈팅<br>
+                                - MySQL RDS 버전 업그레이드(5.5→5.6) 무중단 수행<br>
+                                - SQL 쿼리 튜닝, 인덱스 튜닝으로 성능 개선<br>
+                                - C, Python, Shell Script 등을 활용한 데이터 수집 자동화 및 통계 자료 작성<br>
+                                - WAS 서버 운영자 및 Cassandra 운영자, 개발자와의 커뮤니케이션<br>
+                                </p>
+                                <h5 class="mb-2">3. 기타 업무</h5>
+                                <p>
+                                - 삼성전자 기타 솔루션(삼성 어카운트, 삼성 클라우드 서비스 등) MySQL, Oracle DB 운영<br>
+                                - 삼성 사내 소프트웨어 검정 Professional 등급 취득 및 부서 교육 진행
+                                </p>
+                            </div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">February 2013 - July 2017</span></div>
                     </div>
@@ -78,15 +103,15 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Hanyang University</h3>
-                            <div class="subheading mb-3">Bachelor of Computer Science</div>
+                            <h3 class="mb-0">한양대학교</h3>
+                            <div class="subheading mb-3">컴퓨터공학부</div>
                             <!-- <div>Computer Science - Web Development Track</div> -->
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2008 - February 2013</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Gyeongbuk Foreign Language High School</h3>
+                            <h3 class="mb-0">경북외국어고등학교</h3>
                             <!-- <div class="subheading mb-3">Technology Magnet Program</div> -->
                             <!-- <p>GPA: 3.56</p> -->
                         </div>
@@ -100,20 +125,13 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <!-- <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul> -->
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-database"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+                        <li class="list-inline-item"><i class="fa-sharp fa-solid fa-c"></i></li>
+                    </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
                         <li>
